@@ -137,6 +137,10 @@
         width: 40%;
         padding-right: 7rem;
     }
+
+    .top-icon{
+        left: 93%;
+    }
     
 }
 
@@ -154,7 +158,9 @@
         margin-left: 15rem;
     }
 
-
+    .hero-primary{
+        font-size: 5rem;
+    }
 
     .hero-text-box,.hero-img-box{
         text-align: center;
@@ -164,6 +170,13 @@
 
 @media (max-width: 70em) {
 
+    .download-container{
+        padding-bottom: 2rem;
+    }
+
+    .section-feature{
+        padding-top: 2rem;
+    }
 
     .feature-container{
         flex-direction: column;
@@ -263,5 +276,18 @@
      .main-nav-link:link, 
     .main-nav-link:visited{
         font-size: 3rem;
+    }
+ }
+
+
+ @media (max-width: 530px) {
+    .top-icon{
+        left: 90%;
+    }
+ }
+
+ @media (max-width: 320px) {
+    .top-icon{
+        left: 87%;
     }
  }

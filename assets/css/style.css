@@ -10,6 +10,7 @@ html{
     font-size: 63.5%;
     color: #ffff;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 ul,li{
@@ -23,6 +24,17 @@ body{
     font-weight: 400;
     background-color: #100718;
     overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    background: #050505;
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: hsl(270, 55%, 31%);
+    border-radius: 10px;
 }
 
 
@@ -435,3 +447,19 @@ footer{
     border-top: 1px solid hsla(240, 30%, 83%, 0.1);
 }
 
+
+.top-icon{
+    font-size: 2.2rem;
+    background-color: #DA3653;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+
+}
+
+.top-icon:hover{
+    background-color: #ad2d44;
+}
